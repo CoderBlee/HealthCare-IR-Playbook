@@ -1,0 +1,26 @@
+Healthcare-Incident-Response-Playbook/
+│
+├── README.md
+├── LICENSE
+├── SECURITY.md
+├── docs/
+│   ├── preparation.md
+│   ├── identification.md
+│   ├── containment.md
+│   ├── eradication.md
+│   ├── recovery.md
+│   └── lessons_learned.md
+├── setup/
+│   ├── install_tools.sh
+│   ├── configure_firewalls.sh
+├── scripts/
+│   └── network_monitoring.py
+├── tutorial/
+│   └── incident_response_tutorial.ipynb
+└── .github/
+    ├── ISSUE_TEMPLATE/
+    │   ├── incident_report.md
+    │   └── task.md
+    ├── workflows/
+    │   └── ci.yml
+    └── CONTRIBUTING.md
